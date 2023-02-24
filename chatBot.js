@@ -34,7 +34,7 @@ let BotData =
     ES:"ECMAScript",
     IDE:"Integrated Development Environment",
     GUI:"Graphic User Interface",
-    IIIF:"Immediately invoked function expression",
+    IIFE:"Immediately invoked function expression",
     DOM:"Document Object Model"
 }
 
