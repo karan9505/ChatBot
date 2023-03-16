@@ -3,7 +3,7 @@ input:focus, textarea:focus, select:focus{
 }
 body
 {
-    background-image: url(./PIC/ChatBack.png);
+    background-image: url(./ChatBack.png);
     background-size: 100% 100%;
     background-attachment: fixed;
     font-family:'Gill Sans', sans-serif;
