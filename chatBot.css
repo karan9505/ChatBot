@@ -1,0 +1,141 @@
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+body
+{
+    background-image: url(./PIC/ChatBack.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family:'Gill Sans', sans-serif;
+}
+.ChatWindow
+{
+    background-color: rgba(0,171,240,0.5);
+    position: relative;
+    left:387px;
+    top: 5%;
+    width:710px;
+    height:620px;
+    border-radius: 70px;
+    padding: 20px;
+}
+.ScrollWindow
+{
+    overflow-y: scroll;
+    background-color:rgba(255, 255, 255,0.5);
+    color: black;
+    height: 470px;
+    width: 500px;
+    position: relative;
+    left: 85px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 30px;
+    bottom:25px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.Header
+{
+    background-color: rgba(0, 20, 113, 1);
+    color: white;
+    width:max-content;
+    font-size: 22px;
+    position: relative;
+    bottom:55px;
+    left: 217px;
+    padding: 1px;
+    border-radius: 6px;
+    width: 250px;
+    text-align: center;
+    border-radius: 30px;
+}
+.UserText
+{
+    border: none;
+    height: 60px;
+    width: 500px;
+    border-radius: 50px;
+    position: relative;
+    left: 108px;
+    bottom: 13px;
+    font-size: 20px;
+    padding: 30px;
+}
+.SendButton
+{
+    border: none;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgba(0, 20, 113, 1);
+    color: white;
+    top:593px;
+    left: 572px;
+}
+.BotReplyID,.UserReplyID
+{
+    background-color: black;
+    width:200px;
+    padding: 10px;
+    color: white;
+    height: max-content;
+    position: relative;
+    left: 0px;
+    background-color: rgba(0, 20, 113, 1);
+    border-radius: 25px;
+    align-self: flex-start;
+    margin: 5px;
+
+}
+.UserReplyID
+{
+    align-self: flex-end;
+}
+.Logo
+{
+    position: absolute;
+    top:50px;
+    left:50px;
+    height:70px;
+}
+.Close
+{
+    position: absolute;
+    top:50px;
+    left:50px;
+    height:67px;
+
+}
+.Mini
+{
+    position: absolute;
+    top:120px;
+    left:46px;
+    height:79px;
+}
+.SendButton:hover
+{
+    background-color: white;
+    color: rgba(0, 20, 113, 1);
+    border: 2px solid rgba(0, 20, 113, 1);
+    font-weight: 600;
+}
+
+.time
+{
+    position: relative;
+    top:10px;
+    left: 3px;
+    font-size: 10px;
+}
+
+.text
+{
+    position: relative;
+    bottom:10px;
+}
