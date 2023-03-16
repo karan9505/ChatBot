@@ -10,20 +10,20 @@ let UserQuery;
 let SendButton;
 let UserText;
 let Logo=document.createElement("img");
-Logo.src="./PIC/Chat.png";
+Logo.src="./Chat.png";
 Logo.setAttribute("class","Logo")
 Logo.setAttribute("onclick","AddBot()")
 document.body.appendChild(Logo)
 
 let Close=document.createElement("img");
-Close.src="./PIC/Close.png";
+Close.src="./Close.png";
 Close.setAttribute("class","Close");
 Close.setAttribute("onclick","RemoveBot()");
 document.body.appendChild(Close);
 Close.style.visibility="hidden";
 
 let Mini=document.createElement("img");
-Mini.src="./PIC/Mini.png";
+Mini.src="./Mini.png";
 Mini.setAttribute("class","Mini");
 Mini.setAttribute("onclick","MiniBot()");
 document.body.appendChild(Mini);
